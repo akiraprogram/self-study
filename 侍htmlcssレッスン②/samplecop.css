@@ -2,7 +2,46 @@ body {
   text-align: center;
 }
 
+h1 {
+  margin-top: 30px;
+}
+
+ul {
+  display: flex;
+  justify-content: center;
+}
+
 li {
   list-style: none;
-  float: left;
+  padding :20px 38px;
+}
+
+a {
+  text-decoration: none;
+}
+
+p {
+  margin-top: 30px;
+  margin-bottom: 50px;
+}
+
+.button {
+  background: #2d52a5;
+  color: white;
+  padding: 25px 80px;
+}
+
+.footer-list {
+  background: #2d52a5;
+  margin-top: 100px;
+  padding-top: 40px;
+  padding-bottom: 40px;
+  color: white;
+}
+
+
+.copyright {
+  background: black;
+  color: white;
+  padding: 20px;
 }
