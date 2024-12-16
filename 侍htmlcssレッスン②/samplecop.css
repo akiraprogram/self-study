@@ -1,3 +1,7 @@
+a:link,:visited {
+ color: black
+}
+
 body {
   text-align: center;
 }
@@ -14,6 +18,7 @@ ul {
 li {
   list-style: none;
   padding :20px 38px;
+  font-weight: bold;
 }
 
 a {
@@ -29,19 +34,23 @@ p {
   background: #2d52a5;
   color: white;
   padding: 25px 80px;
+  font-weight: bold;
 }
 
-.footer-list {
+.footer-one {
   background: #2d52a5;
   margin-top: 100px;
   padding-top: 40px;
   padding-bottom: 40px;
-  color: white;
+}
+
+.footer-list {
+  font-weight: bold;
 }
 
 
 .copyright {
   background: black;
   color: white;
-  padding: 20px;
-}
+  padding: 15px;
+  }
