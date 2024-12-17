@@ -1,5 +1,5 @@
 a:link,:visited {
- color: black
+  color:inherit
 }
 
 body {
@@ -16,14 +16,13 @@ ul {
   justify-content: center;
 }
 
-header-list{
+.header-list{
   padding :20px 38px;
   font-weight: bold;
 }
 
 li {
   padding :20px 38px;
-  font-weight: bold;
 }
 
 a {
