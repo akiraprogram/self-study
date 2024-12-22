@@ -32,30 +32,27 @@ body {
   text-align: center;
 }
 
-img.bodyimage1 {
-  width: 1000px;
-}
-
-
 h1 {
   margin-top: 30px;
+  margin-bottom: 47px;
 }
 
-main,h1,p {
+main p {
   margin-top: 30px;
   margin-bottom: 50px;
   width: 960px;
-  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
 }
 
-.news01 {
+.hpinfo p {
   background-color: #e6e6e6;
-}
-.news02 {
-  background-color: #e6e6e6;
-}
-.news03 {
-  background-color: #e6e6e6;
+  font-size: 16px;
+  padding: 37px;
+  font-weight: bold;
+  text-align: left;
+  margin: 10px auto 0px auto;
+  width: 886px;
 }
 
 a {
@@ -63,15 +60,59 @@ a {
 }
 
 .employinfo {
-  display: inline-block;
-  text-align: center;
-  height: 248px;
-  width: 387px;
+  display: flex;
+  justify-content: center;
   background-color: #e6e6e6;
+  margin-top: 100px;
+  width: 960px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.company {
+  display: block;
+  width: 387px;
+  padding-bottom: 25px;
+}
+
+.company img {
+  height: 250px;
+  width: 100%;
+  padding: 60px 58px 35px 58px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.company div {
+  text-align: center;
+  font-weight: bold;
+}
+
+.recruit {
+  display:  block;
+  width: 387px;
+  padding-bottom: 25px;
+}
+
+.recruit img {
+  height: 250px;
+  width: 100%;
+  padding: 60px 58px 35px 58px;
+  margin-left: 64px;
+
+}
+
+.recruit div {
+  text-align: center;
+  font-weight: bold;
 }
 
 .copyright {
+  font-weight: bold;
+  margin-top: 100px;
+  margin-bottom: 0;
   background: #4d4d4d;
   color: white;
-  padding: 15px;
+  padding: 64px;
+  width: 100%;
   }
