@@ -8,16 +8,13 @@ header a:visited {
    color:black;
 }
 
-header {
-  margin-bottom: 60px;
-}
-
 ul {
   list-style: none;
   display: flex;
   justify-content: center;
   background-color: #4d4d4d;
   margin-top: 0px;
+  margin-bottom: 46;
 }
 
 li {
@@ -71,16 +68,12 @@ a {
 
 .company {
   display: block;
-  width: 387px;
-  padding-bottom: 25px;
+  padding-right: 60px;
 }
 
 .company img {
-  height: 250px;
-  width: 100%;
-  padding: 60px 58px 35px 58px;
-  margin-right: auto;
-  margin-left: auto;
+  height: 252px;
+  width: 390px;
 }
 
 .company div {
@@ -90,16 +83,11 @@ a {
 
 .recruit {
   display:  block;
-  width: 387px;
-  padding-bottom: 25px;
 }
 
 .recruit img {
-  height: 250px;
-  width: 100%;
-  padding: 60px 58px 35px 58px;
-  margin-left: 64px;
-
+  height: 252px;
+  width: 390px;
 }
 
 .recruit div {
