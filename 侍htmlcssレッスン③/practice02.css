@@ -69,6 +69,8 @@ a {
 .company {
   display: block;
   padding-right: 60px;
+  padding-top: 60px;
+  padding-bottom: 50px;
 }
 
 .company img {
@@ -79,10 +81,15 @@ a {
 .company div {
   text-align: center;
   font-weight: bold;
+  padding-top: 15px;
+  font-size: 18px;
 }
 
 .recruit {
   display:  block;
+  padding-top: 60px;
+  padding-bottom: 50px;
+
 }
 
 .recruit img {
@@ -93,6 +100,8 @@ a {
 .recruit div {
   text-align: center;
   font-weight: bold;
+  padding-top: 15px;
+  font-size: 18px;
 }
 
 .copyright {
