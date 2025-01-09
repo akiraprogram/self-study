@@ -18,72 +18,72 @@ body {
   text-align: center;
 }
 
+.header-list  {
+  display: flex;
+  justify-content: space-between;
+  background-color: #000000;
+}
+
+.header-list h1 {
+  margin-top: 44px;
+  margin-left: 45px;
+  color :white;
+}
+
 .header-list ul {
   list-style: none;
   display: flex;
-  justify-content: right;
-  background-color: #000000;
+  justify-content: space-around;
   margin-top: 0px;
   margin-bottom: 0;
 }
 
-.header-list ul h1 {
-  display: flex;
-  justify-content: left;
-  margin-top: 35px;
-  margin-bottom: 40px;
-  color :white;
-}
 
 .header-list li {
   padding :25px 55px;
   margin: 28px 12px 29px 13px;
   font-weight: bold;
+  font-size: 20px;
 }
 
 .top-image img {
   width: 100%;
-}
-
-.catch-image img {
-  margin-top: 96px;
-  margin-left: 500px;
-  height: 308px;
-  width: 480px;
+  max-height: 720px;
 }
 
 .middle-contents {
   display: flex;
   justify-content: center;
+  margin: 100px 180px 100px 180px;
+
 }
 
-.middle-contents .right {
-  display: block;
-  justify-content: left;
-  margin: 96px 0 0 0;
-}
+.middle-contents img {
+  width: 40%;
+  max-height: 350px;
 
-.middle-contents .title {
-  margin: 0;
-  padding-top: 26px;
-  text-align: left;
-  font-weight: bold;
-  font-size: 24px;
 }
 
 .middle-contents .text {
-  text-align: left;
-  margin: 10px 0 0;
-  padding: 0;
-  width: 450px;
+  width: 40%;
 }
 
-main p {
-  margin-top: 30px;
-  margin-bottom: 50px;
-  width: 960px;
-  line-height: 1.8;
+.middle-contents .text h2 {
+  text-align: left;
+  color: #000000;
+  padding: 0;
+  margin-top: 40px;
+  margin-left: 43px;
+  font-size: 30px;
 }
+
+.middle-contents .text p {
+  text-align: left;
+  margin-top: 50px;
+  margin-left: 43px;
+  padding-right: 10px;
+}
+
 
 .hpinfo {
   background-color: #f2f2f2;
@@ -112,63 +112,68 @@ a {
   text-decoration: none;
 }
 
-.company {
+.company-image {
   display: flex;
   justify-content: center;
   background-color: #f2f2f2;
-  width:886px;
-  margin-top: 97px;
+  margin-top: 100px;
+  width: 886px;
+  }
+
+.company-image img {
+  width: 40%;
 }
 
-.company-image image {
-  height: 300px;
-  width: 480px;
+.company-image .company-text {
+  width: 40%;
+  justify-content: center;
+  align-items: center;
 }
 
-.company-title {
-  margin: 0;
-  padding-top: 26px;
-  text-align: left;
+.company-text h2 {
+  text-align: center;
   font-weight: bold;
-  font-size: 24px;
+  color: #000000;
 }
 
-.company-contents {
-  text-align: left;
-  margin: 10px 0 0;
-  padding: 0;
-  width: 450px;
+.company-text .linkone {
+  text-align: center;
+  background-color: #000000;
+  color: white;
 }
 
 
 
-.recruit {
+
+.recruit-image {
   display: flex;
   justify-content: center;
-  background-color: #e6e6e6;  
-  width: 25px;
-  margin-top: 97px;
+  background-color: #f2f2f2;
+  margin-top: 30px;
+  width: 886px;
 
 }
 
 .recruit-image img {
-  height: 252px;
-  width: 390px;
+  width: 40%;
 }
 
-.recruit-title {
-  margin: 0;
-  padding-top: 26px;
-  text-align: left;
+.recruit-image .recruit-text {
+  width: 40%;
+  justify-content: center;
+  align-items: center;
+}
+
+.recruit-text h2 {
+  text-align: center;
   font-weight: bold;
-  font-size: 24px;
+  color: #000000;
 }
 
-.recruit-contents {
-  text-align: left;
-  margin: 10px 0 0;
-  padding: 0;
-  width: 450px;
+.recruit-text .recruit-info {
+text-align: center;
+background-color: #000000;
+color: white;
 }
 
  footer {
@@ -208,4 +213,8 @@ footer p {
   margin-bottom: 0;
   color: white;
   padding: 0 0 90px 0;
+  }
+
+  a {
+    text-decoration: none;
   }
