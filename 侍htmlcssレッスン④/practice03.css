@@ -1,0 +1,75 @@
+html,
+body,
+h1,h2,h3,h4,h5,h6,h6,
+a,
+p,
+div,
+ul,li,
+img {
+  margin:0;
+  padding:0;
+}
+ul,li {
+  list-style-type: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+.header {
+  position: relative;
+}
+
+.header-list {
+  position: absolute;
+  display: flex;
+  justify-content: space-between;
+  padding: 0;
+  z-index: 30;
+}
+
+.header-list .header-logo {
+  background: black;
+  padding: 20px 20px;
+}
+
+.header-list .header-logo h1  {
+  color : white;
+  text-align: center;
+  font-size: 70px;
+  font-weight: bolder;
+}
+
+.header-list .header-logo h4  {
+  color : white;
+  font-weight: bold;
+  letter-spacing: 1.5px;
+}
+
+.header-menu ul {
+  display: flex;
+}
+
+.header-menu ul li {
+  margin-right: 60px;
+  margin-top: 35px;
+}
+
+.header-menu ul li a {
+  display: flex;
+  color: black;
+  font-weight: bold;
+}
+
+.header .header-image {
+  max-height: 600px;
+  position: absolute;
+  top: 100;
+  z-index: 10;
+}
+
+.header p {
+  z-index: 20;
+
+}
