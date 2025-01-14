@@ -26,7 +26,8 @@ a {
   display: flex;
   justify-content: space-between;
   padding: 0;
-  z-index: 30;
+  width: 100%;
+  z-index: 40;
 }
 
 .header-list .header-logo {
@@ -63,21 +64,180 @@ a {
 }
 
 .header .header-image {
-  max-height: 600px;
   position: relative;
-  top: 100;
+  top: 100px;
   z-index: 10;
+}
+
+.header .header-image img {
+  width: 100%;
+  max-height: 800px;
+  overflow: hidden;
 }
 
 .header .header-image p {
   position: absolute;
-  color: black;
   top: 50%;
   left: 50%;
+  transform: translate(-50%,-50%);
+  color: black;
+  font-weight: bolder;
+  font-size: 30px;
+}
+
+.header .header-imagetext p {
+  position: absolute;
+  z-index: 30;
+  font-weight: bold;
+  background: #f2f2f2;
+  padding: 40px 240px 40px 25px ;
+  left: 25%;
+  top: 100%;
+  margin-top: 50px;
+}
+
+.middle-contents {
+  width: 960px;
+  display: flex;
+  margin: 320px auto;
+}
+
+.middle-contents img {
+  width: 50%;
+}
+.middle-contents .text {
+  width: 50%;
+  padding-left: 30px;
+}
+.middle-contents .text p {
+  margin-top: 40px;
+}
+
+.information {
+  position: relative;
+  background: #f2f2f2;
+}
+
+.information .background img {
+  width: 100%;
+  object-view-box: inset(0 0 400px 0);
+}
+
+.information .flex {
+  display: flex;
+  justify-content: center;
+}
+
+.information .company-image {
+  width: 960px;
+  justify-content: center;
+  margin-top: -100px;
+
+}
+
+.information .company-image img {
+  width: 50%;
+}
+
+.information .company-image .company-text {
+  width: 50%;
+  text-align: center;
+  background: #ffffff;
+}
+
+.information .company-image .company-text h2 {
+  margin-bottom:  30px;
+  margin-top: 0;
+  padding-top: 30px;
+
+}
+
+.information .company-image .company-text .link-one a {
+  background: #000000;
+  padding: 10px 50px;
+  margin-bottom: 30px;
+  color: #ffffff;
+  font-weight: bold;
+  display: inline-block;
+}
+
+.information .flex .recruit-image {
+  width: 960px;
+  margin-top: -100px;
+
+}
+
+.information .flex .recruit-image img {
+  width: 50%;
+}
+
+.information .flex .recruit-image .recruit-info .recruit-text {
+  width: 50%;
+  text-align: center;
+  background: #ffffff;
+}
+
+.information .flex .recruit-image .recruit-info .recruit-text h2 {
+  margin-bottom:  30px;
+  margin-top: 0;
+  padding-top: 30px;
+}
+
+.information .flex .recruit-image .recruit-info .recruit-text a {
+  background: #000000;
+  padding: 10px 50px;
+  margin-bottom: 30px;
+  color: #ffffff;
+  font-weight: bold;
+  display: inline-block;
+}
+
+.inquiry {
+  text-align: center;
+}
+
+.inquiry h2 {
+  margin-top: 75px;
+  margin-bottom: 47px;
+}
+
+.inquiry p {
+  letter-spacing: 1.3px;
   
 }
 
-.header p {
-  z-index: 20;
+.business h1 {
+  margin-top: 50px;
+  margin-bottom: 10px;
+}
 
+.business p {
+  margin-bottom: 80px;
+}
+
+footer {
+  background: #000000;
+  padding: 100px 0;
+  text-align: center;
+}
+footer h2 {
+  color: #ffffff;
+}
+footer p {
+  color: #ffffff;
+  margin-top: 30px;
+}
+.footer-list ul {
+  display: flex;
+  justify-content: center;
+  margin-top: 100px;
+}
+.footer-list ul li {
+  margin: 0 30px;
+}
+.footer-list ul li a {
+  color: #ffffff;
+}
+.copyright {
+  margin-top: 100px;
 }
